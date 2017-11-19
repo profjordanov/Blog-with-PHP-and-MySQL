@@ -1,7 +1,7 @@
 
-    <footer>
-        (c) Blog System, 2016
-    </footer>
+<footer>
+    <p class="footer-text">&copy; Jordan Jordanov, No Rights Reserved</p>
+</footer>
 
     <?php require_once('fill-posted-fields.php'); ?>
 

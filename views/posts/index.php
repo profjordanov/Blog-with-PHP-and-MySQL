@@ -1,3 +1,4 @@
+<main class="main-content">
 <?php $this->title = 'Posts'; ?>
 <h1><?=htmlspecialchars($this->title)?></h1>
 
@@ -23,3 +24,4 @@
 </table>
 
 <a href="<?=APP_ROOT?>/posts/create">[Create New]</a>
+</main>

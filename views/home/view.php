@@ -1,6 +1,6 @@
 <?php $this->title = $this->post['title']; ?>
 
-<h1><?=htmlspecialchars($this->title)?></h1>
+<h3 class="title"><?=htmlspecialchars($this->title)?></h3>
 
 <main id="posts">
     <article>
