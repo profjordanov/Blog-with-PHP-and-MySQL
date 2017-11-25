@@ -1,4 +1,10 @@
 # “Blog” Web application in PHP + MySQL
+## Created for "Server-Side Programming" coure in University of Economics - Varna.
+Academics: 
+           Ivan Kuyumdzhiеv Cа.D
+           Pavеl Pеtrov Ph.D
+
+
 ## Project Specification
 
 •	Home
