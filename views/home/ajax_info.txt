@@ -1,2 +1,0 @@
-Sourse code + Project Specification .
-HERE: https://github.com/profjordanov/Blog-with-PHP-and-MySQL .

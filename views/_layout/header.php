@@ -25,6 +25,11 @@
         <div class="logo"><a href="<?= APP_ROOT ?>">
                 <img src="<?= APP_ROOT ?>/content/images/logo_sidebar.png" alt="" width="123" height="123"></a>
         </div>
+        <?php if ($this->isLoggedIn) : ?>
+        <h4 class="single-menu-element">
+            <span>Hello, <b><?= htmlspecialchars($_SESSION['username']) ?></b></span>
+            <?php endif; ?>
+        </h4>
         <hr>
         <nav>
             <ul>
@@ -35,20 +40,17 @@
                 </li>
                 <?php if ($this->isLoggedIn) : ?>
                     <li class="single-menu-element">
-                        <span>Hello, <b><?= htmlspecialchars($_SESSION['username']) ?></b></span>
-                    </li>
-                    <li class="single-menu-element">
                         <a href="<?= APP_ROOT ?>/posts/create" class="single-menu-element-link">
                             Create Post
                         </a>
                     </li>
 
                     <li class="single-menu-element">
-                        <a href="<?= APP_ROOT ?>/posts">Posts</a>
+                        <a href="<?= APP_ROOT ?>/posts" class="single-menu-element-link">Posts</a>
                     </li>
 
                     <li class="single-menu-element">
-                        <a href="<?= APP_ROOT ?>/users">Users</a>
+                        <a href="<?= APP_ROOT ?>/users" class="single-menu-element-link">Users</a>
                     </li>
                     <li class="single-menu-element">
                         <form method="post" action="<?= APP_ROOT ?>/users/logout">
@@ -72,6 +74,5 @@
     </aside>
 
 
-
-
-            <?php require_once('show-notify-messages.php'); ?>
+    <main class="main-content">
+        <?php require_once('show-notify-messages.php'); ?>

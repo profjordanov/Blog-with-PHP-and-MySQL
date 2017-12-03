@@ -1,8 +1,10 @@
 <?php $this->title = 'Users'; ?>
-
-<h1><?= htmlspecialchars($this->title) ?></h1>
-
-<table>
+<header id="register-title" class="blog-title">
+    <?= htmlspecialchars($this->title) ?>
+</header>
+<table style="
+    margin-left: 35%;
+">
     <tr>
         <th>ID</th>
         <th>Username</th>
