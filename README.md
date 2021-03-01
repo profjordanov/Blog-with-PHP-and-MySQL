@@ -1,16 +1,16 @@
-# “Blog” Web application in PHP + MySQL
-## Created for "Server-Side Programming" coure in University of Economics - Varna.
+# Blog Web application in PHP + MySQL
+Created for "Server-Side Programming" coure in University of Economics - Varna.
+
 Academics: 
 
-           Ivan Kuyumdzhiеv Cа.D
+           Ivan Kuyumdzhiеv Ph.D
            
            Pavеl Pеtrov Ph.D
-           
-
+          
 
 ## Project Specification
 
-•	Home
+    o	Home
 
     o	Showed the last 3 posts at the home page, ordered by date (from the most recent).
     
@@ -18,25 +18,25 @@ Academics:
     
     o	Showed [Login] and [Register] buttons (when no user is logged in).
     
-•	Login
+    o	Login
 
     o	Login in the blog existing account (username + password).
     
     o	Showed a success message after login or error message in case of problem.
     
-•	Register
+    o	Register
 
     o	Registering a new user in the MySQL database (by username + password + full name).
     
     o	Showed a success message after registration or error message in case of problem.
     
-•	Logout
+    o	Logout
 
     o	Logouted the current user.
     
     o	This [Logout] button is available after successful login only.
     
-•	View / Create / Edit / Delete Posts (CRUD Operations)
+    o	View / Create / Edit / Delete Posts (CRUD Operations)
 
     o	Logged in users are able to view all posts, create new post (by title + content) / edit post / delete post.
     
@@ -48,7 +48,7 @@ Academics:
     
     o	Delete post shows the post to be deleted and asks for confirmation.
     
-•	View All Users
+    o	View All Users
 
     o	Logged in users should be able to view all users (username + full name) in a table.
 
